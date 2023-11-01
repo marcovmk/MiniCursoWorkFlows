@@ -19,4 +19,4 @@ jobs:
           python-version: 3.x
       
       - name: Autenticar
-        run: python autenticacao.py ${{ secrets.USER_NAME }} ${{ secrets.PASSWORD }}
+        run: python autenticacao.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
